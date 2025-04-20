@@ -6,16 +6,6 @@ jenkins:
       users:
         - id: "jigglypuff"
           password: "password"
-  
-  # Configuration pour les jobs à créer via Job DSL
-  jobs:
-    - script: >
-        jobDsl scriptText: '''
-          // Contenu du fichier job_dsl.groovy
-          readFileFromWorkspace('job_dsl.groovy')
-        '''
 
-# Configuration des plugins
-unclassified:
-  location:
-    url: "http://localhost:8080/" 
+jobs:
+  - file: "/var/jenkins_home/job_dsl.groovy"

@@ -25,4 +25,4 @@ freeStyleJob('Daily Dose of Satisfaction') {
         // Étape 3: Affiche "This is your DDoS number [BUILD_NUMBER]."
         shell('echo "This is your DDoS number ${BUILD_NUMBER}."')
     }
-} 
+}
