@@ -1,0 +1,18 @@
+version: '3'
+services:
+  jenkins:
+    build: .
+    container_name: my-jenkins
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+      - ./configuration.yml:/var/jenkins_home/casc_configs/configuration.yml
+      - ./job_dsl.groovy:/var/jenkins_home/job_dsl.groovy
+    environment:
+      - CASC_JENKINS_CONFIG=/var/jenkins_home/casc_configs/configuration.yml
+      - JENKINS_OPTS="--skip-setup-wizard"
+
+volumes:
+  jenkins_home: 

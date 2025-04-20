@@ -1,0 +1,66 @@
+My_Marvin
+Kick-off
+
+Your daily routine
+• Coding (sometimes devastately bad ☺ )
+• [Compiling your code]
+
+• Checking your code, your logic
+• Debugging your code
+• Fixing and adjusting your code
+• Deploying a new version of your code
+• [Breaking something]
+• Doing all this again, and again, and again...
+
+What if you ...
+
+• push a non-compiling program at the last minute?
+
+• push a breaking change that has not been tested?
+• push a code not respecting the coding style?
+• make a typo somewhere in your code?
+• forgot a step during the deployment process?
+
+The answer to all those issues
+
+The remedy to all those issues: AUTOMATION
+
+• Set of tools & practices reducing human intervention ;
+• Main advantages are:
+• Increased productivity, robustness, quality, ... ;
+
+• Reduced cycle time, human labor costs and expenses ;
+• Relieving humans of monotonously repetitive work ;
+• Increased human freedom to do other things...
+
+Pipelines
+
+• Set of connected data processing elements
+
+• Continuous Integration & Continuous Deployment
+• Automatically handles the integration and deployment
+
+• The magic happens usually with just a push
+• The magician is the automation platform
+
+Jenkins
+
+• popular open-source automation platform
+
+• tons of plug-ins
+
+• extremely customizable
+
+Epitech’s Marvin
+• used by your school to evaluate your projects
+
+• can test 50 projects simultaneously
+
+• very efficient, fast and scalable
+• you already love it
+
+Thank you
+
+Any questions?
+
+
