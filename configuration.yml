@@ -6,6 +6,9 @@ jenkins:
       users:
         - id: "jigglypuff"
           password: "password"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
 
 jobs:
   - file: "/var/jenkins_home/job_dsl.groovy"
